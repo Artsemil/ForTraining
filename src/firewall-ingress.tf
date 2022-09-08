@@ -1,15 +1,15 @@
-//resource "google_compute_firewall" "default" {
-//  name = "devsecops-fw-all"
-//  network = "devsecops-network-gcp"
-//
-//  allow {
-//    protocol = "all"
-//  }
-//
-//  description = "INGRESS"
-//  source_ranges = [
-//    "0.0.0.0/0"]
-//}
+resource "google_compute_firewall" "default" {
+  name = "devsecops-fw-all"
+  network = "devsecops-network-gcp"
+
+  allow {
+    protocol = "all"
+  }
+
+  description = "INGRESS"
+  source_ranges = [
+    "0.0.0.0/0"]
+}
 
 //resource "google_compute_firewall" "i04-ni-gcp" {
 //  name = "devsecops-fw-single-port"
