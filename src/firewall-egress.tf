@@ -1,15 +1,15 @@
-resource "google_compute_firewall" "o02-ni-gcp" {
-  name = "devsecops-fw-all-egress"
-  network = "devsecops-network-gcp"
-
-  allow {
-    protocol = "all"
-  }
-
-  direction = "EGRESS"
-  source_ranges = [
-    "0.0.0.0/0"]
-}
+//resource "google_compute_firewall" "o02-ni-gcp" {
+//  name = "devsecops-fw-all-egress"
+//  network = "devsecops-network-gcp"
+//
+//  allow {
+//    protocol = "all"
+//  }
+//
+//  direction = "EGRESS"
+//  source_ranges = [
+//    "0.0.0.0/0"]
+//}
 //
 //resource "google_compute_firewall" "o05-ni-gcp" {
 //  name = "devsecops-fw-single-port-egress"
