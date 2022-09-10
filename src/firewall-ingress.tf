@@ -1,22 +1,22 @@
-resource "google_compute_firewall" "i02-ni-gcp" {
-  name = "devsecops-fw-single-port"
+resource "google_compute_firewall" "i05-06-ni-gcp" {
+  name = "devsecops-fw-multi-ports"
   network = "devsecops-network-gcp"
 
   allow {
     protocol = "tcp"
     ports = [
-      "389"]
+      "3020-3050",
+      "9000"]
   }
   allow {
     protocol = "udp"
     ports = [
-      "389"]
+      "3020-3050",
+      "9000"]
   }
 
   description = "INGRESS"
-  direction = "INGRESS"
-  priority = 1100
+  priority = 1200
   source_ranges = [
     "0.0.0.0/0"]
 }
-
