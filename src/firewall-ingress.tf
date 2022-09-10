@@ -1,22 +1,14 @@
-resource "google_compute_firewall" "i02-ni-gcp" {
-  name = "devsecops-fw-single-port"
+resource "google_compute_firewall" "i21-ni-gcp" {
+  name = "devsecops-fw-cidr-ip"
   network = "devsecops-network-gcp"
 
   allow {
     protocol = "tcp"
     ports = [
-      "389"]
-  }
-  allow {
-    protocol = "udp"
-    ports = [
-      "389"]
+      "22"]
   }
 
-  description = "INGRESS"
-  direction = "INGRESS"
-  priority = 1100
+  priority = 1500
   source_ranges = [
-    "0.0.0.0/0"]
+    "192.168.0.0/16"]
 }
-
