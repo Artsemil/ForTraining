@@ -1,5 +1,5 @@
-resource "google_compute_firewall" "o03-ni-gcp" {
-  name = "devsecops-fw-single-ip-egress"
+resource "google_compute_firewall" "o03-ni-gcp-copy" {
+  name = "devsecops-fw-cidr-ip-egress"
   network = "devsecops-network-gcp"
 
   allow {
@@ -7,7 +7,8 @@ resource "google_compute_firewall" "o03-ni-gcp" {
   }
 
   direction = "EGRESS"
-  priority = "2300"
+  description = "EGRESS"
+  priority = "2500"
   destination_ranges = [
-    "192.168.1.1/32"]
+    "192.168.0.0/16"]
 }
