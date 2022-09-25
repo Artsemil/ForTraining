@@ -7,7 +7,7 @@ resource "google_compute_firewall" "o03-ni-gcp" {
   }
 
   direction = "EGRESS"
-  priority = "2300"
+  priority = "2400"
   destination_ranges = [
     "192.168.1.1/32"]
 }
