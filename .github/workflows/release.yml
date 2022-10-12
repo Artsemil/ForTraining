@@ -19,7 +19,7 @@ jobs:
         uses: algosec/connectivity-risk-analysis-action@v0.0.45
         env:
           # By default our action doesn't require actions/checkout, using GCP Auth action requires us to specify its usage
-          USE_CHECKOUT: true
+#          USE_CHECKOUT: true
           ######
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CF_TENANT_ID: ${{ secrets.CF_TENANT_ID }}
