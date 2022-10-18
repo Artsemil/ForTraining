@@ -7,6 +7,7 @@ variable "environment" {
 variable "name" {
   description = "The name to be used for resources provisioned by this module"
   type        = string
+  default     = "Development"
 }
 
 variable "tags" {
@@ -18,4 +19,5 @@ variable "tags" {
 variable "vpc_id" {
   description = "Provide Virtual Private Cloud ID in which security groups will be deployed"
   type        = string
+  default     = "sadafsdsf"
 }
