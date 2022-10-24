@@ -2,7 +2,6 @@ name: 'Test Repo CI/CD'
 on:
   pull_request:
     branches:
-      - 'main'
       - 'master'
 jobs:
   algosec-risk-analysis:
