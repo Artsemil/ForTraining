@@ -32,3 +32,4 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
           ARM_CLIENT_ID: ${{ secrets.AZ_CLIENT_ID }}
           ARM_CLIENT_SECRET: ${{ secrets.AZ_CLIENT_SECRET }}
+          SSH_KEY: ${{secrets.SSH_KEY}}
