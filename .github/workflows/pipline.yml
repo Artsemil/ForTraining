@@ -2,19 +2,18 @@ name: 'Test Repo CI/CD'
 on:
   pull_request:
     branches:
-      - 'main'
       - 'master'
 jobs:
   algosec-risk-analysis:
     name: 'Algosec Risk Analysis'
     runs-on: ubuntu-latest
     steps:
-      - name: debug
-        uses: hmarr/debug-action@v2
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v0.7.3
         with:
           credentials_json: ${{ secrets.GOOGLE_CREDENTIALS }}
+      - name: debug
+        uses: hmarr/debug-action@v2
       - name: Algosec Risk Analysis Action
         uses: algosec/connectivity-risk-analysis-action@v0.0.50
         env:
