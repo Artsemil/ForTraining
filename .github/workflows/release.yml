@@ -32,3 +32,5 @@ jobs:
           ARM_TENANT_ID: ${{ secrets.AZ_TENANT_ID }}
           ARM_CLIENT_ID: ${{ secrets.AZ_CLIENT_ID }}
           ARM_CLIENT_SECRET: ${{ secrets.AZ_CLIENT_SECRET }}
+          CF_API_URL: ${{ secrets.CF_API_URL }}
+          CF_LOGIN_API: ${{ secrets.CF_LOGIN_API }}
