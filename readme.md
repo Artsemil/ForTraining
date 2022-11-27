@@ -1,6 +1,18 @@
 import mistune
 <img height="100" src="https://raw.githubusercontent.com/algosec/risk-analysis-action/develop/icons/header.svg" />
 
+```html
+<svg role="img" title="CodePen">
+	<use href="map.svg#codepen"/>
+</svg>
+<svg role="img" title="YouTube">
+	<use href="map.svg#youtube"/>
+</svg>
+<svg role="img" title="Twitter">
+	<use href="map.svg#twitter"/>
+</svg>
+```
+
 [image_ref_a32ff4ads]: data:image/png;base64,iVBORw0KGgoAAAANSUhEke02C1MyA29UWKgPA...RS12D==
 
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
