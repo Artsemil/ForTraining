@@ -1,3 +1,4 @@
+<img height="100" src="https://raw.githubusercontent.com/algosec/risk-analysis-action/develop/icons/header.svg" />
 check 123
 
 @sample.svg
