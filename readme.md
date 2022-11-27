@@ -1,6 +1,8 @@
 import mistune
 <img height="100" src="https://raw.githubusercontent.com/algosec/risk-analysis-action/develop/icons/header.svg" />
 
+![3 SVG logos](http://i.imgur.com/87Npdzn.png)
+
 ```html
 <svg role="img" title="CodePen">
 	<use href="map.svg#codepen"/>
