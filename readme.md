@@ -1,6 +1,11 @@
 <img height="100" src="https://raw.githubusercontent.com/algosec/risk-analysis-action/develop/icons/header.svg" />
 check 123
 
+<link rel="shortcut icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InJlZCIvPjwvc3ZnPg==" />
+
+<object type="image/svg+xml" data="circle_orange.svg">
+        <div class="nicolas_cage fallback"></div>
+    </object>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="146" version="1.1">
     <title>digicraft punchcard logo</title>
     <defs>
