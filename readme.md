@@ -2,7 +2,7 @@ import mistune
 <img height="100" src="https://raw.githubusercontent.com/algosec/risk-analysis-action/develop/icons/header.svg" />
 ✔✔✔✔✔✔✔✔
 
-**Hooray :tada: - The SVGs get injected and are styleable!!!**
+:tada: - The SVGs get injected and are styleable!!!**
 
 ![3 SVG logos](http://i.imgur.com/87Npdzn.png)
 
