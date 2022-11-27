@@ -1,6 +1,10 @@
 <img height="100" src="https://raw.githubusercontent.com/algosec/risk-analysis-action/develop/icons/header.svg" />
 check 123
 
+<details> 
+<summary>SVG code</summary>
+
+```
 @sample.svg
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -11,3 +15,6 @@ check 123
     </g>
 </svg>
 @sample.svg
+```
+
+</details>
